@@ -1,0 +1,108 @@
+
+
+.catalogo2{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 3px;
+    padding: 3px;
+    width: 210px;
+    height: 15px;
+}
+   
+
+a:link{
+    width: 200px;
+    position: relative;
+    background-color: rgb(240, 242, 245);
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px;
+    font-size: 15px;
+    
+}
+
+
+a:visited{
+    background-color: rgb(149, 174, 243);
+    border-color: black;
+    color: black;
+}
+
+a:active{
+    background-color: rgb(238, 237, 235);
+    
+
+}
+a:hover{
+    color: black;
+    background-color: rgb(255, 255, 247);
+    font-size: 16px;
+
+}
+
+body{
+    
+    background-image: linear-gradient( blue,green, orange);
+    text-align: center;
+}
+
+
+.logoT{
+    width: 100%;
+    height: 250px;
+}
+
+.lista{
+    background-image: url(/img/Sion1.png);
+    background-size: 99%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(56, 54, 54);
+    border-width: 2px;
+    font-size: 120%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+i{
+    margin: 5px;
+}
+
+img{
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 3px;
+}
+
+table{
+    width: 100%;
+    background-color: rgb(201, 207, 218);
+    padding: auto;
+    border-collapse: collapse;
+    margin-right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(95, 95, 95);
+    font-size: 20px;
+}
+thead{
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(95, 95, 95);
+}
+
+tr:nth-child(odd){
+    background-color: darkgray;
+}
