@@ -1,14 +1,21 @@
 
+body{
+    
+    background-image: linear-gradient( blue,green, orange);
+    text-align: center;
+}
+
+/* estilos de Catalogo2*/
 
 .catalogo2{
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 3px;
     padding: 3px;
     width: 210px;
-    height: 15px;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: 1px;
 }
    
+/* estilos de el link a catalogo2*/
 
 a:link{
     width: 200px;
@@ -43,17 +50,14 @@ a:hover{
 
 }
 
-body{
-    
-    background-image: linear-gradient( blue,green, orange);
-    text-align: center;
-}
-
+/* estilos del Logo se Soap & Pets*/
 
 .logoT{
     width: 100%;
     height: 250px;
 }
+
+/* Estilos de la lista de la cabecera*/
 
 .lista{
     background-image: url(/img/Sion1.png);
@@ -62,11 +66,11 @@ body{
     border-style: solid;
     border-color: rgb(56, 54, 54);
     border-width: 2px;
-    font-size: 120%;
+    font-size: 125%;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    padding: 10px;
+    height: 120px;
 }
 
 ul{
@@ -85,6 +89,7 @@ img{
     margin-top: 3px;
 }
 
+/* Estilos de la Tabla de precios*/
 table{
     width: 100%;
     background-color: rgb(201, 207, 218);
@@ -105,4 +110,48 @@ thead{
 
 tr:nth-child(odd){
     background-color: darkgray;
+}
+
+/* estilos primer carrusel */
+
+.slider {
+    width: 98%;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+}
+.slider ul {
+    padding: 0px;
+    display: flex;
+    width: 440%;
+    animation: cambio 15s infinite alternate;
+}
+.slider li {
+    width: 100%;
+    height: 250px;
+    list-style: none;
+}
+
+.slider img{
+    
+    width: 250px; 
+    height: 250px; 
+    border-style: none;  
+     
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    50% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
 }
